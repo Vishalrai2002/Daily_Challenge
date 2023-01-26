@@ -3,6 +3,7 @@ class Solution {
 public:
     int minDeletionSize(vector<string>& str) {
         int ans=0;
+        
         int m=str.size(); // row size()
         int n=str[0].size(); // col size()
         for(int j=0;j<n;j++){ //start from col 
